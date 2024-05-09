@@ -1,7 +1,6 @@
 package com.bentey.leetcodelearning.slidingWindow;
 
 import android.os.Build;
-import android.text.TextUtils;
 
 import androidx.annotation.RequiresApi;
 
