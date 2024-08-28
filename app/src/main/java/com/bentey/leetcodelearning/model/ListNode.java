@@ -10,6 +10,11 @@ public class ListNode {
 
     public ListNode next;
 
+    public ListNode random;
+
+    public ListNode() {
+    }
+
     public ListNode(int val) {
         this.val = val;
     }
