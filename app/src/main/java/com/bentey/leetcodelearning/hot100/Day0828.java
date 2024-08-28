@@ -155,11 +155,11 @@ public class Day0828 {
 
         for (int i = 0; i < nums.length; i++) {
 
+            sum = sum + nums[i];
+
             if (container.containsKey(sum - k)) {
                 count += container.get(sum - k);
             }
-
-            sum = sum + nums[i];
 
             container.put(sum, container.getOrDefault(sum, 0) + 1);
         }
